@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<style>
+  .body{
+    background-repeat: no-repeat;
+  }
+</style>
+<body style="background-image: url({% static 'images/lib.jpg' %});">
+<div class="container mt-3">
+  <h1 class="mb-3 h1">Library</h1>
+  <p>Hey Welcome to library</p>
+  <p>Here you can issue any book which are available with us.</p>
+  <p>Enjoy our services.</p>
+</div>
+</body>
+{% endblock %}
